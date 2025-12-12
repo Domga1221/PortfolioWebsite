@@ -114,12 +114,21 @@
 import { ArrowRightIcon, ChatBubbleLeftRightIcon, ClockIcon, CodeBracketIcon, EyeIcon } from '@heroicons/vue/16/solid';
 import { ref } from 'vue';
 
+
+import project1 from '../../public/project1.png'
+import project2 from '../../public/project2.png'
+import project3 from '../../public/project3.png'
+import project4 from '../../public/project4.png'
+import project5 from '../../public/project5.png'
+import project6 from '../../public/project6.png'
+
+
 const projects = ref([
     {
         id: 1,
         title: "E-Commerce Platform",
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
-        image: './public/project1.png',
+        image: project1,
         category: 'Full-Stack',
         boardColor: 'border-blue-500/20',
         badgeColor: "bg-blue-500",
@@ -152,7 +161,7 @@ const projects = ref([
         id: 2,
         title: "Portfolio App",
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
-        image: './public/project2.png',
+        image: project2,
         category: 'Portfolio',
         boardColor: 'border-cyan-500/20',
         badgeColor: "bg-cyan-500",
@@ -185,7 +194,7 @@ const projects = ref([
         id: 3,
         title: "Social Media Platform",
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
-        image: './public/project3.png',
+        image: project3,
         category: 'Social',
         boardColor: 'border-blue-500/20',
         badgeColor: "bg-blue-500",
@@ -218,7 +227,7 @@ const projects = ref([
         id: 4,
         title: "Restaurant website",
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
-        image: './public/project4.png',
+        image: project4,
         category: 'restaurant',
         boardColor: 'border-blue-500/20',
         badgeColor: "bg-blue-500",
@@ -251,7 +260,7 @@ const projects = ref([
         id: 5,
         title: "portfolio website",
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
-        image: './public/project5.png',
+        image: project5,
         category: 'portfolio',
         boardColor: 'border-blue-500/20',
         badgeColor: "bg-blue-500",
@@ -284,7 +293,7 @@ const projects = ref([
         id: 6,
         title: "Dashboard",
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
-        image: './public/project6.png',
+        image: project6,
         category: 'dashboard',
         boardColor: 'border-cyan-500/20',
         badgeColor: "bg-cyan-500",
