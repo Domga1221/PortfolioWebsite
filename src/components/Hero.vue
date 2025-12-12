@@ -13,7 +13,7 @@
                     md:text-5xl lg:text-6xl leading-tight">
                     Hi I'm 
                     <span class="text-transparent bg-clip-text bg-linear-to-r
-                    from-blue-400 to-cyan-400">
+                    from-rose-400 to-pink-400">
                     Dominik</span>👋
                     </h1>
                     <p class="text-blule-200 font-medium text-lg md:text-xl
@@ -31,7 +31,7 @@
                     <br>
                     起こる全部は普通で既知、春に薔薇のようです.
                     <br>
-                    - Markus Aurelius
+                    - Marcus Aurelius
                     </p>
                     <div class="flex items-center gap-4 pt-8 flex-col
                     sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
@@ -39,8 +39,8 @@
                     data-aos-delay="300">
                         <button class="px-8 md:px-10 py-4 rounded-xl relative group
                         w-full> sm:w-max flex justify-center overflow-hidden
-                        bg-linear-to-r from-blue-600 to-cyan-600
-                        hover:from-blue-500 hover:to-cyan-500 transition-all
+                        bg-linear-to-r from-rose-600 to-pink-600
+                        hover:from-rose-500 hover:to-pink-500 transition-all
                         duration-300"
                         >
                             <span class="relative flex items-center 
@@ -48,17 +48,17 @@
                             text-lg">
                                 Contact Me
                             <ArrowRightIcon class="ml-2 w-5 h-5
-                            group-hover:translate-x-1 transition-transform" />
+                            group-hover:tranpink-x-1 transition-transform" />
                             </span>
                         </button>
-                        <button class="border-2 border-blue-400 px-8 md:px-10 
+                        <button class="border-2 border-rose-400 px-8 md:px-10 
                         py-4 rounded-xl relative group w-full sm:w-max
-                        flex justify-center hover:bg-blue-400/10 
+                        flex justify-center hover:bg-rose-400/10 
                         transition-all duration-300">
                         <div class="flex items-center justify-center relative">
-                            <FolderArrowDownIcon class="w-5 h-5 text-blue-400
-                            group-hover:translate-y-1 transition-transform"/>
-                            <span class="pl-3 text-blue-400 font-semibold
+                            <FolderArrowDownIcon class="w-5 h-5 text-rose-400
+                            group-hover:tranpink-y-1 transition-transform"/>
+                            <span class="pl-3 text-rose-400 font-semibold
                             text-lg">
                             Download CV    
                             </span>
@@ -69,17 +69,17 @@
                     lg:justify-start gap-8 pt-12"
                     data-aos="fade-up" data-aos-delay="300">
                         <div class="text-center">
-                            <div class="text-2xl font-bold text-blue-400">too many</div>
-                            <div class="text-blue-200 text-sm">Projects</div>
+                            <div class="text-2xl font-bold text-rose-400">too many</div>
+                            <div class="text-rose-200 text-sm">Projects</div>
                         </div>
                         <div class="text-center">
-                            <div class="text-2xl font-bold text-blue-400">7+</div>
-                            <div class="text-blue-200 text-sm">Years</div>
+                            <div class="text-2xl font-bold text-rose-400">7+</div>
+                            <div class="text-rose-200 text-sm">Years</div>
                         </div>
                         <!--
                         <div class="text-center">
-                            <div class="text-2xl font-bold text-blue-400">0</div>
-                            <div class="text-blue-200 text-sm">Clients</div>
+                            <div class="text-2xl font-bold text-rose-400">0</div>
+                            <div class="text-rose-200 text-sm">Clients</div>
                         </div>
                         -->
                     </div>
@@ -88,15 +88,15 @@
                     <div class="lg:h-full flex justify-center lg:justify-end">
                     <div class="relative w-full max-w-md lg:max-w-lg">
                         <div class="relative z-10 bg-linear-to-r 
-                        from-blue-600 to-cyan-600 shadow-2xl 
+                        from-rose-600 to-pink-600 shadow-2xl 
                         rounded-[50%_40%/40%_50%]
-                        p-4 backdrop-blur-sm border border-blue-500/30"
+                        p-4 backdrop-blur-sm border border-rose-500/30"
                         data-aos="zoom-in" data-aos-delay="300">
                             <div class="rounded-xl overflow-hidden">
                                 <img src="../../public/NewNose2Transparent.png"
                                 alt="Mary"
                                 class="w-[500px] h-[500px] object-contain 
-                                translate-y-8/">
+                                tranpink-y-8/">
                             </div>
                         </div>
                     </div>

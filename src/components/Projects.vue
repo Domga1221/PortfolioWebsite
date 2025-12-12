@@ -6,11 +6,11 @@
              <div class="text-center mb-16" data-aos='fade-up'>
                 <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
                     My <span class="text-transparent bg-clip-text 
-                    bg-linear-to-r from-blue-400 to-cyan-400">
+                    bg-linear-to-r from-rose-400 to-pink-400">
                     Projects
                 </span>
                 </h2>
-                <p class="text-blue-200 text-lg max-w-2xl mx-auto">
+                <p class="text-rose-200 text-lg max-w-2xl mx-auto">
                     A collection of my recent work and creative solutions
                 </p>
             </div>
@@ -21,10 +21,10 @@
                 <div v-for="(project, index) in projects"
                 :key="(project.id)"
                 class="group relative bg-linear-to-br from-gray-800/50 
-                to-blue-900/30 rounded-3xl overflow-hidden border
-                backdrop-blur-sm hover:border-blue-400/40
+                to-rose-900/30 rounded-3xl overflow-hidden border
+                backdrop-blur-sm hover:border-rose-400/40
                 transition-all duration-500 hover:transform
-                hover:-translate-y-2"
+                hover:-tranpink-y-2"
                 :class="project.boardColor"
                 data-aos="fade-up"
                 :data-aos-delay="(index + 1) * 100"> 
@@ -48,11 +48,11 @@
                 <!-- Project Content -->
                  <div class="p-6">
                     <h3 class="text-xl font-bold text-white
-                    group-hover:text-blue-400 transition-colors
+                    group-hover:text-rose-400 transition-colors
                     duration-300">
                         {{ project.title }}
                     </h3>
-                    <p class="text-blue-100 text-sm leading-relaxed
+                    <p class="text-rose-100 text-sm leading-relaxed
                     mb-4">
                         {{ project.dest }}
                     </p>
@@ -87,16 +87,16 @@
                 <div class="inline-flex flex-col sm:flex-row gap-4
                 items-center">
                     <button class="px-8 py-4 rounded-xl bg-linear-to-r 
-                    from-blue-500 to-cyan-500 text-white 
-                    font-semibold hover:shadow-lg hover:shadow-blue-500/25
+                    from-rose-500 to-pink-500 text-white 
+                    font-semibold hover:shadow-lg hover:shadow-rose-500/25
                     transition-all duration-300 hover:scale-105 
                     flex items-center">
                     <ArrowRightIcon class="w-5 h-5 ml-2"></ArrowRightIcon>
                     View all projects
                     </button>
                     <button class="px-8 py-4 rounded-xl border-2
-                    border-blue-400 text-blue-400 font-semibold
-                    hover:bg-blue-400/10 transition-all duration-300
+                    border-rose-400 text-rose-400 font-semibold
+                    hover:bg-rose-400/10 transition-all duration-300
                     flex items-center">
                     <ChatBubbleLeftRightIcon class="w-5 h-5 mr-2"></ChatBubbleLeftRightIcon>
                     Discuss project
@@ -130,30 +130,30 @@ const projects = ref([
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
         image: project1,
         category: 'Full-Stack',
-        boardColor: 'border-blue-500/20',
-        badgeColor: "bg-blue-500",
+        boardColor: 'border-rose-500/20',
+        badgeColor: "bg-rose-500",
         technology: [ 
             {
                 name: "Vue.js",
-                class: 'bg-blue-500/20 border-blue-400/30 text-blue-200'
+                class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
             {
                 name: "Node.js",
-                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+                class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
             },
             {
                 name: "MongoDB",
-                class: 'bg-blue-500/20 border-blue-400/30 text-blue-200'
+                class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
         ],
         links: [
             {
                 name: "Live Demo", url: "#", icon: EyeIcon,
-                class: 'text-blue-400 hove:text-blue-300',
+                class: 'text-rose-400 hove:text-rose-300',
             },
             {
                 name: "Code", url: "#", icon: CodeBracketIcon,
-                class: 'text-cyan-400 hove:text-cyan-300',
+                class: 'text-pink-400 hove:text-pink-300',
             }
         ]
     },
@@ -163,30 +163,30 @@ const projects = ref([
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
         image: project2,
         category: 'Portfolio',
-        boardColor: 'border-cyan-500/20',
-        badgeColor: "bg-cyan-500",
+        boardColor: 'border-pink-500/20',
+        badgeColor: "bg-pink-500",
         technology: [ 
             {
                 name: "React Native",
-                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+                class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
             },
             {
                 name: "Firebase",
-                class: 'bg-blue-500/20 border-blue-400/30 text-blue-200'
+                class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
             {
                 name: "Redux",
-                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+                class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
             },
         ],
         links: [
             {
                 name: "Live Demo", url: "#", icon: EyeIcon,
-                class: 'text-blue-400 hove:text-blue-300',
+                class: 'text-rose-400 hove:text-rose-300',
             },
             {
                 name: "Code", url: "#", icon: CodeBracketIcon,
-                class: 'text-cyan-400 hove:text-cyan-300',
+                class: 'text-pink-400 hove:text-pink-300',
             }
         ]
     },
@@ -196,30 +196,30 @@ const projects = ref([
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
         image: project3,
         category: 'Social',
-        boardColor: 'border-blue-500/20',
-        badgeColor: "bg-blue-500",
+        boardColor: 'border-rose-500/20',
+        badgeColor: "bg-rose-500",
         technology: [ 
             {
                 name: "Vue.js",
-                class: 'bg-blue-500/20 border-blue-400/30 text-blue-200'
+                class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
             {
                 name: "D3.js",
-                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+                class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
             },
             {
                 name: "Express",
-                class: 'bg-blue-500/20 border-blue-400/30 text-blue-200'
+                class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
         ],
         links: [
             {
                 name: "Live Demo", url: "#", icon: EyeIcon,
-                class: 'text-blue-400 hove:text-blue-300',
+                class: 'text-rose-400 hove:text-rose-300',
             },
             {
                 name: "Code", url: "#", icon: CodeBracketIcon,
-                class: 'text-cyan-400 hove:text-cyan-300',
+                class: 'text-pink-400 hove:text-pink-300',
             }
         ]
     },
@@ -229,30 +229,30 @@ const projects = ref([
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
         image: project4,
         category: 'restaurant',
-        boardColor: 'border-blue-500/20',
-        badgeColor: "bg-blue-500",
+        boardColor: 'border-rose-500/20',
+        badgeColor: "bg-rose-500",
         technology: [ 
             {
                 name: "React",
-                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+                class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
             },
             {
                 name: "Socket.io",
-                class: 'bg-blue-500/20 border-blue-400/30 text-blue-200'
+                class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
             {
                 name: "PostgreSQL",
-                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+                class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
             },
         ],
         links: [
             {
                 name: "Live Demo", url: "#", icon: EyeIcon,
-                class: 'text-blue-400 hove:text-blue-300',
+                class: 'text-rose-400 hove:text-rose-300',
             },
             {
                 name: "Code", url: "#", icon: CodeBracketIcon,
-                class: 'text-cyan-400 hove:text-cyan-300',
+                class: 'text-pink-400 hove:text-pink-300',
             }
         ]
     },
@@ -262,30 +262,30 @@ const projects = ref([
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
         image: project5,
         category: 'portfolio',
-        boardColor: 'border-blue-500/20',
-        badgeColor: "bg-blue-500",
+        boardColor: 'border-rose-500/20',
+        badgeColor: "bg-rose-500",
         technology: [ 
             {
                 name: "Vue.js",
-                class: 'bg-blue-500/20 border-blue-400/30 text-blue-200'
+                class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
             {
                 name: "Tailwind CSS",
-                class: 'bg-cyan-500/20 border-cyan-400/30 text-cyan-200'
+                class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
             },
             {
                 name: "AOS",
-                class: 'bg-blue-500/20 border-blue-400/30 text-blue-200'
+                class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
         ],
         links: [
             {
                 name: "Live Demo", url: "#", icon: EyeIcon,
-                class: 'text-blue-400 hove:text-blue-300',
+                class: 'text-rose-400 hove:text-rose-300',
             },
             {
                 name: "Code", url: "#", icon: CodeBracketIcon,
-                class: 'text-cyan-400 hove:text-cyan-300',
+                class: 'text-pink-400 hove:text-pink-300',
             }
         ]
     },
@@ -295,8 +295,8 @@ const projects = ref([
         dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
         image: project6,
         category: 'dashboard',
-        boardColor: 'border-cyan-500/20',
-        badgeColor: "bg-cyan-500",
+        boardColor: 'border-pink-500/20',
+        badgeColor: "bg-pink-500",
         technology: [ 
             {
                 name: "Dashboard",
@@ -306,7 +306,7 @@ const projects = ref([
         links: [
             {
                 name: "In Progress", url: "#", icon: ClockIcon,
-                class: 'text-cyan-400 hove:text-cyan-300',
+                class: 'text-pink-400 hove:text-pink-300',
             }
         ]
     }

@@ -10,8 +10,8 @@
                 <div class="relative w-full max-w-md">
                     <div data-aos="zoom-in" 
                     class="relative bg-linear-to-br
-                    from-gray-800/60 to-blue-900/40 rounded-3xl p-6
-                    backdrop-blur-sm border border-blue-300/30 shadow-2xl">
+                    from-gray-800/60 to-rose-900/40 rounded-3xl p-6
+                    backdrop-blur-sm border border-rose-300/30 shadow-2xl">
 
                     <div class="grid grid-cols-2 gap-4">
                         <div v-for="(image, index) in aboutImage"
@@ -37,9 +37,9 @@
                         </div>
                     </div>
                     <div class="absolute -bottom-4 left-1/2
-                    transform -translate-x-1/2 z-20 bg-linear-to-r
-                    from-blue-500 to-cyan-500 rounded-2xl px-6 py-3
-                    border border-blue-400/40 shadow-xl"
+                    transform -tranpink-x-1/2 z-20 bg-linear-to-r
+                    from-rose-500 to-pink-500 rounded-2xl px-6 py-3
+                    border border-rose-400/40 shadow-xl"
                     
                     >
 
@@ -57,10 +57,10 @@
                     <h2 class="text-white font-bold text-4xl 
                     md:text-5xl lg:text-6xl leading-tight">About
                     <span class="text-transparent bg-clip-text 
-                    bg-linear-to-r from-blue-400 to-cyan-400">
+                    bg-linear-to-r from-rose-400 to-pink-400">
                     Me</span>
                     </h2> 
-                    <p class="text-blue-200 font-medium text-lg 
+                    <p class="text-rose-200 font-medium text-lg 
                     md:text-xl mt-4" data-aos="fade-left" data-aos-delay="100">
                         Computer Science Student & Hobby Artist
                     </p>
@@ -81,7 +81,7 @@
                         :class="skill.iconColor"></component>
                         <h3 class="text-lg font-bold text-white">{{ skill.title }}</h3>
                     </div>
-                    <p class="text-blue-100 text-sm">{{ skill.desc }}</p>
+                    <p class="text-rose-100 text-sm">{{ skill.desc }}</p>
                     </div>
                 </div>
                 <div class="flex gap-4 pt-8 flex-col sm:flex-row"
@@ -119,9 +119,9 @@ const aboutImage = [
         id: 1,
         src: about1,
         alt: "Mary - Professional Photo",
-        gradient: `bg-linear-to-r from-blue-600 to-cyan-600 border-blue-400/40`,
+        gradient: `bg-linear-to-r from-rose-600 to-pink-600 border-rose-400/40`,
         badge: 'Games',
-        badgeColor: 'bg-blue-500',
+        badgeColor: 'bg-rose-500',
         animation: 'fade-right',
         delay: 200
     },
@@ -129,9 +129,9 @@ const aboutImage = [
         id: 2,
         src: about2,
         alt: "Mary - Working Environment",
-        gradient: `bg-linear-to-r from-blue-500 to-cyan-500 border-blue-400/40`,
+        gradient: `bg-linear-to-r from-rose-500 to-pink-500 border-rose-400/40`,
         badge: 'Graphics',
-        badgeColor: 'bg-cyan-500',
+        badgeColor: 'bg-pink-500',
         animation: 'fade-left',
         delay: 300
     },
@@ -139,9 +139,9 @@ const aboutImage = [
         id: 3,
         src: about3,
         alt: "Mary - Professional Photo",
-        gradient: `bg-linear-to-r from-blue-500 to-cyan-500 border-blue-400/40`,
+        gradient: `bg-linear-to-r from-rose-500 to-pink-500 border-rose-400/40`,
         badge: 'Developer',
-        badgeColor: 'bg-blue-600',
+        badgeColor: 'bg-rose-600',
         animation: 'fade-right',
         delay: 400
     },
@@ -149,9 +149,9 @@ const aboutImage = [
         id: 4,
         src: about4,
         alt: "Mary - Design Work",
-        gradient: `bg-linear-to-r from-blue-600 to-cyan-600 border-blue-400/40`,
+        gradient: `bg-linear-to-r from-rose-600 to-pink-600 border-rose-400/40`,
         badge: 'Creative',
-        badgeColor: 'bg-cyan-600',
+        badgeColor: 'bg-pink-600',
         animation: 'fade-left',
         delay: 500
     }
@@ -161,28 +161,28 @@ const skills = [
     {
         id: 1,
         icon: CodeBracketSquareIcon,
-        iconColor: "text-blue-400",
+        iconColor: "text-rose-400",
         title: 'Games Programming',
         desc: 'Unity, Godot, MonoGame'
     },
      {
         id: 2,
         icon: ServerIcon,
-        iconColor: "text-cyan-400",
+        iconColor: "text-pink-400",
         title: 'Graphics Programming',
         desc: 'C, C++, OpenGL, Vulkan'
     },
     {
        id: 3,
        icon: CubeIcon,
-       iconColor: "text-cyan-400",
+       iconColor: "text-pink-400",
        title: 'Tools',
        desc: 'Premake, NVIM, CLang'
     },
     {
         id: 4,
         icon: PaintBrushIcon,
-        iconColor: "text-blue-400",
+        iconColor: "text-rose-400",
         title: 'Art',
         desc: 'Especially 3D sometimes analog'
     },
@@ -193,15 +193,15 @@ const ctaButtons = [
         id: 1,
         text: 'View Portfolio',
         icon: ArrowRightIcon,
-        iconclass: 'ml-2 group-hover:translate-x-1 transition-transform',
-        classes: 'bg-linear-to-r from-blue-600 to-cyan-600 text-white hover:from-blue-500 hover:to-cyan-500'
+        iconclass: 'ml-2 group-hover:tranpink-x-1 transition-transform',
+        classes: 'bg-linear-to-r from-rose-600 to-pink-600 text-white hover:from-rose-500 hover:to-pink-500'
     },
     {
         id: 2,
         text: 'Contact Me',
         icon: ChatBubbleLeftRightIcon,
         iconclass: 'mr-2',
-        classes: 'border border-blue-400 text-blue-400 hover:bg-blue-400/10'
+        classes: 'border border-rose-400 text-rose-400 hover:bg-rose-400/10'
     }
 ]
 </script>

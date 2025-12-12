@@ -2,7 +2,7 @@
 <template>
   <div class="min-h-screen 
   bg-linear-to-br from-gray-900 
-  via-blue-900 to-gray-900">
+  via-rose-900 to-gray-900">
     <Navbar />
     <Hero />
     <Services />

@@ -6,13 +6,13 @@
             <h2 class="text-4xl md:text-5xl font-bold text-white
             mb-4">
                 Get In <span class="text-transparent bg-clip-text 
-                bg-linear-to-r from-blue-400 to-cyan-400"> 
+                bg-linear-to-r from-rose-400 to-pink-400"> 
                 Touch
                 </span>
 
             </h2>
-            <p class="text-blue-200 text-lg">
-              Let's work together on your next project  
+            <p class="text-rose-200 text-lg">
+              Let's work together!
             </p>
 
         </div>
@@ -25,43 +25,46 @@
                 </h3> 
                 <div class="space-y-6">
                     <div class="flex items-center gap-4">
-                        <EnvelopeIcon class="w-6 h-6 text-blue-400"></EnvelopeIcon>
+                        <EnvelopeIcon class="w-6 h-6 text-rose-400"></EnvelopeIcon>
                         <div>
                             <p class="text-white font-semibold">Email</p>
-                            <p class="text-blue-200">hello@mary.dev</p>
+                            <p class="text-rose-200">domgalp@gmail.com</p>
                         </div>
                     </div>
+                    <!-- 
                     <div class="flex items-center gap-4">
-                        <PhoneIcon class="w-6 h-6 text-blue-400"></PhoneIcon>
+                        <PhoneIcon class="w-6 h-6 text-rose-400"></PhoneIcon>
                         <div>
                             <p class="text-white font-semibold">Phone</p>
-                            <p class="text-blue-200">+1 555 123-4567</p>
+                            <p class="text-rose-200">+1 555 123-4567</p>
                         </div>
                     </div>
                     <div class="flex items-center gap-4">
-                        <MapPinIcon class="w-6 h-6 text-blue-400"></MapPinIcon>
+                        <MapPinIcon class="w-6 h-6 text-rose-400"></MapPinIcon>
                         <div>
                             <p class="text-white font-semibold">Location</p>
-                            <p class="text-blue-200">City, CA</p>
+                            <p class="text-rose-200">City, CA</p>
                         </div>
                     </div>
+                    -->
                 </div>
 
+                <!--
                 <div class="mt-8"> 
                     <h4 class="text-lg font-bold text-white mb-4">
                         Follow Me
                     </h4>
                     <div class="flex gap-4">
                         <a href="#"
-                        class="p-3 bg-blue-500/20 border
-                        border-blue-400/30 rounded-xl text-blue-400
-                        hover:bg-blue-500/30 transition-all">
+                        class="p-3 bg-rose-500/20 border
+                        border-rose-400/30 rounded-xl text-rose-400
+                        hover:bg-rose-500/30 transition-all">
                             <ChatBubbleLeftRightIcon class="w-5 h-5"></ChatBubbleLeftRightIcon>
                         </a>
                         <a href="#"
-                        class="p-3 bg-blue-500/20 border
-                        border-blue-400/30 rounded-xl text-blue-400
-                        hover:bg-blue-500/30 transition-all">
+                        class="p-3 bg-rose-500/20 border
+                        border-rose-400/30 rounded-xl text-rose-400
+                        hover:bg-rose-500/30 transition-all">
                             <UserGroupIcon class="w-5 h-5"></UserGroupIcon>
                         </a>
                         <a href="#"
@@ -72,9 +75,11 @@
                         </a>
                     </div>
                 </div>
+                -->
              </div>
 
              <!-- Contact Form -->
+              <!--
               <div data-aos="fade-left"> 
                 <form class="space-y-6">
                     <div class="grid sm:grid-cols-2 gap-6"> 
@@ -85,9 +90,9 @@
                             </label>
                             <input type="text"
                             class="w-full bg-gray-800/50
-                            border border-blue-500/30 rounded-xl px-4 py-3
-                            text-white placeholder-blue-300
-                            focus:border-blue-400 focus:outline-none transition-all ">
+                            border border-rose-500/30 rounded-xl px-4 py-3
+                            text-white placeholder-rose-300
+                            focus:border-rose-400 focus:outline-none transition-all ">
                         </div>
                         <div> 
                             <label type="email"
@@ -96,9 +101,9 @@
                                 Email
                             </label>
                             <input class="w-full bg-gray-800/50
-                            border border-blue-500/30 rounded-xl px-4 py-3
-                            text-white placeholder-blue-300
-                            focus:border-blue-400 focus:outline-none transition-all ">
+                            border border-rose-500/30 rounded-xl px-4 py-3
+                            text-white placeholder-rose-300
+                            focus:border-rose-400 focus:outline-none transition-all ">
                         </div>
                     </div>
                         <div> 
@@ -108,9 +113,9 @@
                                 Subject
                             </label>
                             <input class="w-full bg-gray-800/50
-                            border border-blue-500/30 rounded-xl px-4 py-3
-                            text-white placeholder-blue-300
-                            focus:border-blue-400 focus:outline-none transition-all ">
+                            border border-rose-500/30 rounded-xl px-4 py-3
+                            text-white placeholder-rose-300
+                            focus:border-rose-400 focus:outline-none transition-all ">
                         </div>
                         <div> 
                             <label type="text"
@@ -120,20 +125,20 @@
                             </label>
                             <textarea rows="4"
                              class="w-full bg-gray-800/50
-                            border border-blue-500/30 rounded-xl px-4 py-3
-                            text-white placeholder-blue-300
-                            focus:border-blue-400 focus:outline-none transition-all "></textarea>
+                            border border-rose-500/30 rounded-xl px-4 py-3
+                            text-white placeholder-rose-300
+                            focus:border-rose-400 focus:outline-none transition-all "></textarea>
                         </div>
                         <button type="submit"
-                            class="w-full bg-linear-to-r from-blue-500 to-cyan-500 text-white font-semibold py-3 rounded-xl 
-                            hover:shadow-lg hover:shadow-blue-500/25 transition-all
+                            class="w-full bg-linear-to-r from-rose-500 to-pink-500 text-white font-semibold py-3 rounded-xl 
+                            hover:shadow-lg hover:shadow-rose-500/25 transition-all
                             duration-300">
                             Send Message
                         </button>
 
                 </form>
 
-              </div>
+              </div>-->
         </div>
         </div>
         

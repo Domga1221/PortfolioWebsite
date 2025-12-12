@@ -4,12 +4,12 @@
         <div class="text-center m-16" data-aos="fade-up">
             <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
                 My <span class="text-transparent bg-clip-text bg-linear-to-r
-                from-blue-400 to-cyan-400">
+                from-rose-400 to-pink-400">
                     Services
                 </span>
 
             </h2>
-            <p class="text-blue-200 text-lg max-w-2xl mx-auto"
+            <p class="text-rose-200 text-lg max-w-2xl mx-auto"
             data-aos="fade-up"
             data-aos-delay="100">
                 Lorem ipsum dolor sit amet consectetur adipisicing
@@ -21,39 +21,39 @@
             :data-aos="'fade-up'"
             :data-aos-delay="(index * 100) + 100"
             class="group relative p-8 rounded-2xl bg-linear-to-br 
-            from-gray-800/50 to-blue-900/30 backdrop-blur-sm 
-            border border-blue-500-20 hover:border-blue-400/40
+            from-gray-800/50 to-rose-900/30 backdrop-blur-sm 
+            border border-rose-500-20 hover:border-rose-400/40
             transition-all duration-500 hover:transform
-            hover:-translate-y-2">
-            <div class="absolute inset-0 bg-linear-to-r from-blue-500/5
-            to-cyan-500/5 rounded-2xl opacity-0 duration-500 
+            hover:-tranpink-y-2">
+            <div class="absolute inset-0 bg-linear-to-r from-rose-500/5
+            to-pink-500/5 rounded-2xl opacity-0 duration-500 
             group-hover:opacity-100 transition-opacity"></div>
             <div class="relative z-10 mb-6">
                 <div class="inline-flex items-center justify-center
-                w-16 h-16 rounded-xl bg-linear-to-r from-blue-500/20
-                to-cyan-500/20 border border-blue-400/30 
+                w-16 h-16 rounded-xl bg-linear-to-r from-rose-500/20
+                to-pink-500/20 border border-rose-400/30 
                 group-hover:scale-110 transition-transform 
                 duration-300">
                     <component
                     :is="service.icon"
-                    class="w-8 h-8 text-blue-400"></component>
+                    class="w-8 h-8 text-rose-400"></component>
 
                 </div>
             </div>
             <div class="relative z-10">
                 <h3 class="text-xl font-bold text-white mb-3 
-                group-hover:text-blue-400 transition-colors
+                group-hover:text-rose-400 transition-colors
                 duration-300">
                     {{ service.name }}
                 </h3>
-                <p class="text-blue-100 leading-relaxed">
+                <p class="text-rose-100 leading-relaxed">
                     {{ service.desc }}
                 </p>
             </div>
             <div class="absolute bottom-6 right-6 opacity-0 
-            group-hover:opacity-100 transform translate-x-4
-            group-hover:translate-x-0 transition-all duration-300">
-                <ArrowRightIcon class="w-6 h-6 text-cyan-400"></ArrowRightIcon>
+            group-hover:opacity-100 transform tranpink-x-4
+            group-hover:tranpink-x-0 transition-all duration-300">
+                <ArrowRightIcon class="w-6 h-6 text-pink-400"></ArrowRightIcon>
             </div>
             </div>
         </div>
@@ -64,8 +64,8 @@
             <div class="inline-flex flex-col sm:flex-row gap-4 
             items-center">
                 <button class="px-8 py-4 rounded-xl border-2
-                border-blue-400 text-blue-400 font-semibold 
-                hover:bg-blue-400/10 transition-all duration-300
+                border-rose-400 text-rose-400 font-semibold 
+                hover:bg-rose-400/10 transition-all duration-300
                 flex items-center">
                 Get In Touch
                 <ChatBubbleLeftRightIcon class="w-5 h-5 ml-2"></ChatBubbleLeftRightIcon>
