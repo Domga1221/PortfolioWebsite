@@ -62,14 +62,13 @@
                     </h2> 
                     <p class="text-blue-200 font-medium text-lg 
                     md:text-xl mt-4" data-aos="fade-left" data-aos-delay="100">
-                        Full Stak Developer & UI/UX Designer
+                        Computer Science Student & Hobby Artist
                     </p>
                 </div>
                 <p class="text-gray-300 pt-1 text-center lg:text-left text-lg leading-relaxed"
                 data-aos="fade-left"
                 data-aos-delay="200">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Baetae officiis perferendiis illo...
+                    Passionate developer for games and graphics. Hobby artist in my free time. 
                 </p>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-8"
                 data-aos="fade-up" data-aos-delay="300">
@@ -113,7 +112,7 @@ import { ArrowRightIcon, ChatBubbleLeftRightIcon, CodeBracketSquareIcon,
 import about1 from '../../public/About.png'
 import about2 from '../../public/About2.png'
 import about3 from '../../public/About3.png'
-import about4 from '../../public/About4.png'
+import about4 from '../../public/About4.jpg'
 
 const aboutImage = [
     {
@@ -121,7 +120,7 @@ const aboutImage = [
         src: about1,
         alt: "Mary - Professional Photo",
         gradient: `bg-linear-to-r from-blue-600 to-cyan-600 border-blue-400/40`,
-        badge: 'Professional',
+        badge: 'Games',
         badgeColor: 'bg-blue-500',
         animation: 'fade-right',
         delay: 200
@@ -131,7 +130,7 @@ const aboutImage = [
         src: about2,
         alt: "Mary - Working Environment",
         gradient: `bg-linear-to-r from-blue-500 to-cyan-500 border-blue-400/40`,
-        badge: 'Creative',
+        badge: 'Graphics',
         badgeColor: 'bg-cyan-500',
         animation: 'fade-left',
         delay: 300
@@ -151,7 +150,7 @@ const aboutImage = [
         src: about4,
         alt: "Mary - Design Work",
         gradient: `bg-linear-to-r from-blue-600 to-cyan-600 border-blue-400/40`,
-        badge: 'Designer',
+        badge: 'Creative',
         badgeColor: 'bg-cyan-600',
         animation: 'fade-left',
         delay: 500
@@ -163,29 +162,29 @@ const skills = [
         id: 1,
         icon: CodeBracketSquareIcon,
         iconColor: "text-blue-400",
-        title: 'Frontend',
-        desc: 'Vue js, React, Javascript, Typescript, Tailwind CSS'
+        title: 'Games Programming',
+        desc: 'Unity, Godot, MonoGame'
     },
      {
         id: 2,
         icon: ServerIcon,
         iconColor: "text-cyan-400",
-        title: 'Backend',
-        desc: 'Node js, Express, MongoDB, SQL, REST APIs'
+        title: 'Graphics Programming',
+        desc: 'C, C++, OpenGL, Vulkan'
     },
-     {
-        id: 3,
+    {
+       id: 3,
+       icon: CubeIcon,
+       iconColor: "text-cyan-400",
+       title: 'Tools',
+       desc: 'Premake, NVIM, CLang'
+    },
+    {
+        id: 4,
         icon: PaintBrushIcon,
         iconColor: "text-blue-400",
-        title: 'Design',
-        desc: 'UI/UX Design, Figma, Responsive Design, Prototyping'
-    },
-     {
-        id: 4,
-        icon: CubeIcon,
-        iconColor: "text-cyan-400",
-        title: 'Tools',
-        desc: 'Git, Docker, AWS, VSCode, Webpack'
+        title: 'Art',
+        desc: 'Especially 3D sometimes analog'
     },
 ];
 

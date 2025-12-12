@@ -27,9 +27,11 @@
                     mx-auto max-w-xl text-lg leading-relaxed"
                     data-aos="fade-right"
                     data-aos-delay="100">
-                    Everything that happens is ordinary and known, like a blue in spring.
+                    Everything that happens is ordinary and known, like a rose in spring.
                     <br>
                     起こる全部は普通で既知、春に薔薇のようです.
+                    <br>
+                    - Markus Aurelius
                     </p>
                     <div class="flex items-center gap-4 pt-8 flex-col
                     sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
@@ -74,11 +76,12 @@
                             <div class="text-2xl font-bold text-blue-400">7+</div>
                             <div class="text-blue-200 text-sm">Years</div>
                         </div>
+                        <!--
                         <div class="text-center">
                             <div class="text-2xl font-bold text-blue-400">0</div>
                             <div class="text-blue-200 text-sm">Clients</div>
                         </div>
-                        
+                        -->
                     </div>
                 </div>
                     <!-- Image rounded-[50%_40%_30%_60%/60%_30%_70%_30%] -->

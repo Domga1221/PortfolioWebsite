@@ -3,7 +3,7 @@
     bg-opacity-50 relative z-20">
     <div class="text-3x1 font-bold bg-linear-to-r from-blue-400
     to-cyan-400 bg-clip-text text-transparent">
-        Dev <span class="font-black">Portfolio</span>
+        Dominik's <span class="font-black">Portfolio</span>
     </div>
     <div class="md:hidden z-30">
         <button type="button"
@@ -53,6 +53,7 @@
         
     </ul>
     
+    <!--
     <div class="mt-8 md:mt-0 md:ml-8">
         <button class="px-6 py-2.5 bg-linear-to-r from-blue-500
         to-cyan-500 text-white rounded-full hover:shadow-lg
@@ -61,7 +62,7 @@
         Let's talk
         </button>
     </div>
-
+    -->
     </nav>
 
 
