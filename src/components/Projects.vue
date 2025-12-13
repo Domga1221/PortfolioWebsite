@@ -11,7 +11,8 @@
                 </span>
                 </h2>
                 <p class="text-rose-200 text-lg max-w-2xl mx-auto">
-                    A collection of my recent work and creative solutions
+                    A collection of my recent and older work. Make sure to click the eye or code bracket icons for demonstration videos
+                    or the code on GitHub.
                 </p>
             </div>
 
@@ -70,6 +71,7 @@
                         <a v-for="link in project.links"
                         :key="link.name"
                         :href="link.url"
+                        target="_blank"
                         :class="link.class"
                         class="flex items-center gap-2 transition-colors
                         duration-300 text-sm font-medium">
@@ -86,14 +88,18 @@
             <div class="text-center mt-16" data-aos="fade-up">
                 <div class="inline-flex flex-col sm:flex-row gap-4
                 items-center">
+                <a href="https://github.com/Domga1221" target="_blank">
                     <button class="px-8 py-4 rounded-xl bg-linear-to-r 
                     from-rose-500 to-pink-500 text-white 
                     font-semibold hover:shadow-lg hover:shadow-rose-500/25
                     transition-all duration-300 hover:scale-105 
                     flex items-center">
-                    <ArrowRightIcon class="w-5 h-5 ml-2"></ArrowRightIcon>
-                    View all projects
+
+                        <ArrowRightIcon class="w-5 h-5 ml-2"></ArrowRightIcon>
+                        View all projects
                     </button>
+                </a>
+                    <!--
                     <button class="px-8 py-4 rounded-xl border-2
                     border-rose-400 text-rose-400 font-semibold
                     hover:bg-rose-400/10 transition-all duration-300
@@ -101,6 +107,7 @@
                     <ChatBubbleLeftRightIcon class="w-5 h-5 mr-2"></ChatBubbleLeftRightIcon>
                     Discuss project
                     </button>
+                    -->
                 </div>
             </div>
 
@@ -117,7 +124,7 @@ import { ref } from 'vue';
 
 import project1 from '../../public/project1.png'
 import project2 from '../../public/project2.png'
-import project3 from '../../public/project3.png'
+import project3 from '../../public/project3.jpg'
 import project4 from '../../public/project4.png'
 import project5 from '../../public/project5.png'
 import project6 from '../../public/project6.png'
@@ -126,103 +133,100 @@ import project6 from '../../public/project6.png'
 const projects = ref([
     {
         id: 1,
-        title: "E-Commerce Platform",
-        dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
+        title: "PBR Renderer & Editor",
+        dest: 'Created in summer of 2023 for Advanced Computer Graphics course. Contains post-processing effects like color correction, bloom, SSAO, as well as particle systems.',
         image: project1,
-        category: 'Full-Stack',
+        category: 'Graphics',
         boardColor: 'border-rose-500/20',
         badgeColor: "bg-rose-500",
         technology: [ 
             {
-                name: "Vue.js",
+                name: "C/C++",
                 class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
             {
-                name: "Node.js",
+                name: "OpenGL",
                 class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
             },
             {
-                name: "MongoDB",
+                name: "Premake",
                 class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
         ],
         links: [
             {
-                name: "Live Demo", url: "#", icon: EyeIcon,
+                name: "Live Demo", url: "https://youtu.be/o7CtYwoZbIw?si=_OVHxUioG6yOYNT8", icon: EyeIcon,
                 class: 'text-rose-400 hove:text-rose-300',
             },
             {
-                name: "Code", url: "#", icon: CodeBracketIcon,
+                name: "Code", url: "https://github.com/Domga1221/ResPublicaRomana", icon: CodeBracketIcon,
                 class: 'text-pink-400 hove:text-pink-300',
             }
         ]
     },
     {
         id: 2,
-        title: "Portfolio App",
-        dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
+        title: "Shader",
+        dest: 'Created in summer of 2023 for Shaders course. Contains 3D as well as 2D shaders.',
         image: project2,
-        category: 'Portfolio',
+        category: 'Graphics',
         boardColor: 'border-pink-500/20',
         badgeColor: "bg-pink-500",
         technology: [ 
             {
-                name: "React Native",
-                class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
-            },
-            {
-                name: "Firebase",
-                class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
-            },
-            {
-                name: "Redux",
+                name: "OpenGL",
                 class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
             },
         ],
         links: [
             {
-                name: "Live Demo", url: "#", icon: EyeIcon,
+                name: "Live Demo", url: "https://youtu.be/rGUGYqjVrn4?si=BUSul4CqR-RhxnMa", icon: EyeIcon,
                 class: 'text-rose-400 hove:text-rose-300',
             },
+            /*
             {
                 name: "Code", url: "#", icon: CodeBracketIcon,
                 class: 'text-pink-400 hove:text-pink-300',
             }
+            */
         ]
     },
     {
         id: 3,
-        title: "Social Media Platform",
-        dest: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Baetae officiis perferendiis illo...',
+        title: "Games Coaching App",
+        dest: 'Created in summer of 2021 for Android course. Addresses the problems of video game coaches, offering a platform which delivers their services to the end customer.',
         image: project3,
         category: 'Social',
         boardColor: 'border-rose-500/20',
         badgeColor: "bg-rose-500",
         technology: [ 
             {
-                name: "Vue.js",
+                name: "Android Studio",
                 class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
             {
-                name: "D3.js",
+                name: "Express",
                 class: 'bg-pink-500/20 border-pink-400/30 text-pink-200'
             },
             {
-                name: "Express",
+                name: "OkHttp",
                 class: 'bg-rose-500/20 border-rose-400/30 text-rose-200'
             },
         ],
         links: [
             {
-                name: "Live Demo", url: "#", icon: EyeIcon,
+                name: "Code", url: "https://github.com/Domga1221/Games-Coaching-App-AndroidStudio", icon: CodeBracketIcon,
                 class: 'text-rose-400 hove:text-rose-300',
             },
+            /*
             {
                 name: "Code", url: "#", icon: CodeBracketIcon,
                 class: 'text-pink-400 hove:text-pink-300',
             }
+            */
         ]
     },
+    /*
     {
         id: 4,
         title: "Restaurant website",
@@ -310,6 +314,7 @@ const projects = ref([
             }
         ]
     }
+    */
 ])
 </script>
 
