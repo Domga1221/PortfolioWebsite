@@ -84,6 +84,8 @@
                     <p class="text-rose-100 text-sm">{{ skill.desc }}</p>
                     </div>
                 </div>
+
+                <!--
                 <div class="flex gap-4 pt-8 flex-col sm:flex-row"
                 data-aos="fade-up"
                 data-aos-delay="400">
@@ -96,8 +98,8 @@
                 :class="button.iconclass"></component>
                 {{ button.text }}
                 </button>
-
                 </div>
+                -->
             </div>
         </div>
     </div>
