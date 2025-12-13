@@ -53,16 +53,17 @@
         
     </ul>
     
-    <!--
+    
     <div class="mt-8 md:mt-0 md:ml-8">
         <button class="px-6 py-2.5 bg-linear-to-r from-rose-500
         to-pink-500 text-white rounded-full hover:shadow-lg
         hover:shadow-rose-500/25 transition-all duration-300
         hover:scale-105">
+        <a href="#contact">
         Let's talk
+        </a>
         </button>
     </div>
-    -->
     </nav>
 
 
@@ -77,7 +78,7 @@ const Menu = ref([
     {name:'About me', href:'#about'},
     {name:'Skills', href:'#skills'},
     {name:'Projects', href:'#projects'},
-    {name:'Contact', href:'#contact'},
+    //{name:'Contact', href:'#contact'},
 ]);
 const isMenuOpen = ref(false);
 const scrollToSection = (href) => {
