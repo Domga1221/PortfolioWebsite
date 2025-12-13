@@ -15,19 +15,19 @@
                     Thank you for visiting my web portfolio!
                 </p>
                 <div class="flex gap-4 mt-6">
-                <a href="#" class="p-2 bg-rose-500/20
+                <a class="p-2 bg-rose-500/20
                     border border-rose-400/30 rounded-lg
                     text-rose-400 hover:bg-rose-500/30
                     transition-all">
                     <FaceSmileIcon class="w-5 h-5"></FaceSmileIcon>
                 </a>
-                <a href="#" class="p-2 bg-rose-500/20
+                <a class="p-2 bg-rose-500/20
                     border border-rose-400/30 rounded-lg
                     text-rose-400 hover:bg-rose-500/30
                     transition-all">
                     <HandThumbUpIcon class="w-5 h-5"></HandThumbUpIcon>
                 </a>
-                <a href="#" class="p-2 bg-rose-500/20
+                <a class="p-2 bg-rose-500/20
                     border border-rose-400/30 rounded-lg
                     text-rose-400 hover:bg-rose-500/30
                     transition-all">
